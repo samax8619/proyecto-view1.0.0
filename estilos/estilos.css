@@ -129,3 +129,23 @@
 .descarga h2 {
     color: #a64af0;
 }
+.objetivos {
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.objetivos h2 {
+  color: #4b0082; /* morado institucional */
+}
+
+.objetivos ul {
+  text-align: left;
+  margin-top: 15px;
+  line-height: 1.8;
+}
+
+.objetivos li::before {
+  content: "✔️ ";
+  color: #6a0dad;
+}
+
